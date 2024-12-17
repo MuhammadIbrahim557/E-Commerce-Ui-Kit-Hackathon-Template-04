@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation"; // Import useRouter
 import Image from "next/image";
 
 const Navbar: React.FC = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
   const router = useRouter(); // Initialize useRouter
 
   // Function to handle navigation
